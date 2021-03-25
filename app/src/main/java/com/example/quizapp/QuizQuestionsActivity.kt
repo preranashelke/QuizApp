@@ -89,7 +89,7 @@ class QuizQuestionsActivity : AppCompatActivity() ,View.OnClickListener{
                         }else->{
                             val intent= Intent(this,ResultActivity::class.java)
                         intent.putExtra(Constants.USER_NAME,mUserName)
-                        intent.putExtra(Constants.CORRECT_ANSWER,mCorrectAnswer)
+                        intent.putExtra(Constants.CORRECT_ANSWERS,mCorrectAnswer)
                         intent.putExtra(Constants.TOTAL_QUESTIONS,mQuestionList!!.size)
                         startActivity(intent)
                         finish()
