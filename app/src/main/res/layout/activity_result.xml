@@ -24,7 +24,7 @@
     <ImageView
         android:id="@+id/tv_trophy"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="387dp"
         android:contentDescription="image"
         android:src="@drawable/ic_trophy"
 
@@ -38,25 +38,25 @@
         android:text="Hey, Congratulations"
         android:textColor="@android:color/white"
         android:textSize="25sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        tools:text="Username"
         android:textColor="@android:color/white"
         android:textSize="22sp"
         android:textStyle="bold"
-        />
+        tools:text="Username" />
+
     <TextView
         android:id="@+id/tv_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/secondary_text_dark"
-        android:textSize="20sp"
+        android:textSize="15sp"
         tools:text="your score is 9 out off 10"
         />
     <Button

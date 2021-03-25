@@ -21,14 +21,14 @@
       android:gravity="center"
       android:textColor="#363A43"
         android:textSize="22sp"
-        android:text="What country this flag belong to ?">
+        android:text="What is this sport?">
     </TextView>
     <ImageView
         android:id="@+id/iv_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
       android:layout_marginTop="16dp"
-      android:src="@drawable/ic_flag_of_argentina"
+      android:src="@drawable/football"
       />
     <LinearLayout
       android:id="@+id/ll_progress_details"
@@ -70,7 +70,7 @@
      android:background="@drawable/default_option_border_bg"
      android:textColor="#7A8089"
      android:textSize="18sp"
-     android:text="Apple"
+     android:text="Football"
 />
       <TextView
           android:id="@+id/tv_option_two"
@@ -82,7 +82,7 @@
           android:background="@drawable/default_option_border_bg"
           android:textColor="#7A8089"
           android:textSize="18sp"
-          android:text="Apple"
+          android:text="Rugby"
           />
       <TextView
           android:id="@+id/tv_option_three"
@@ -94,7 +94,7 @@
           android:background="@drawable/default_option_border_bg"
           android:textColor="#7A8089"
           android:textSize="18sp"
-          android:text="Apple"
+          android:text="Cricket"
           />
       <TextView
           android:id="@+id/tv_option_four"
@@ -106,7 +106,7 @@
           android:background="@drawable/default_option_border_bg"
           android:textColor="#7A8089"
           android:textSize="18sp"
-          android:text="Apple"
+          android:text="Volleyball"
           />
       <Button
           android:id="@+id/btn_submit"
